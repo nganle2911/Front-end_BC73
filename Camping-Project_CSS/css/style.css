@@ -1,0 +1,255 @@
+/*---- ALL ----*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*---- HEADER ----*/
+.header {
+    background-color: #F8E1DB;
+}
+
+.header .container {
+    padding: 15px 50px;
+}
+
+.header .container .logo {
+    display: block;
+    padding-bottom: 15px;
+}
+
+.header .container .navigation a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+/*---- CAROUSEL ----*/
+.carousel {
+    height: 800px;
+    background-image: url(../Image/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*---- PRODUCTS ----*/
+.products {
+    background: #FAF4F2;
+    padding-bottom: 60px;
+}
+
+.products .product-title h1 {
+    color: #828282;
+}
+
+.products .container .product-title {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.products .container .product-list {
+    padding-top: 30px;
+}
+
+.products .container .product-list .product-item {
+    float: left;
+    width: 25%; 
+    box-sizing: border-box;
+    padding: 0 20px;
+    background-color: #FAF4F2;
+    margin-bottom: 40px;
+}
+
+.products .container .product-list .product-item .container {
+    background-color: #fff;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.products .container .product-list .product-item .container .thumbnail {
+    position: relative; 
+    /* so voi body */
+}
+
+.products .container .product-list .product-item .container .thumbnail img {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 30px;  
+} 
+
+.products .container .product-list .product-item .container .thumbnail a {
+    position: absolute;
+    right: -2px;
+    top: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    width: 6%;
+    height: 9%;
+    color: #e46347;
+}
+
+.products .container .product-list .product-item .container h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.products .container .product-list .product-item .container p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.8;
+    color: #828282;
+    margin-bottom: 10px;
+}
+
+.products .container .product-list .product-item .container a {
+    display: inline-block;
+    text-align: center;
+    background-color: #e5e4e5;
+    padding: 15px 0;
+    width: 80%;
+    margin: 15px 38px;
+    border-radius: 30px;
+    color: #828282;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.products .container .button {
+    clear: left;
+}
+
+.products .container .button a {
+    display: block;
+    text-align: center;
+    width: 13%;
+    margin: 0 auto;
+    padding: 12px 0;
+    border: 1px solid #e46347;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #e46347;
+}
+
+/*---- ABOUT ----*/
+.about {
+    background-color: #FAF4F2;
+}
+
+.about .container {
+    background-color: #f7dcd6;
+    height: 390px;
+    color: #828282;
+    border-radius: 20px;
+}
+
+.about .container .images {
+    float: left;
+    width: 55%;
+    position: relative;
+}
+
+.about .container img.background {
+    position: relative;
+    left: -390px;
+}
+
+.about .container img.tent {
+    position: absolute;
+    left: 80px;
+    top: 25px;
+}
+
+.about .container .info {
+    position: relative;
+    float: left;
+    width: 45%;
+    top: 95px;
+}
+
+.about .container .info p {
+    margin-top: 15px;
+}
+
+.about .container .info .contact {
+    margin-top: 25px;
+}
+
+.about .container .info .contact h3 {
+    margin-bottom: 20px;
+}
+
+.about .container .info .contact .app {
+    float: left;
+}
+
+.about .container .info .contact .media a {
+    font-size: 24px;
+    margin-right: 8px;
+    text-decoration: none;
+    color: #e46347;
+}
+
+.about .container .clear {
+    clear: left;
+}
+
+/*---- FOOTER ----*/
+.footer {
+    background-color: #FAF4F2;
+    padding-top: 100px;
+}
+
+.footer .container {
+    background-color: #f7dcd6;
+    height: 400px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+
+.footer .container p {
+    font-size: 16px;
+}
+
+.footer .container .content-list {
+    margin: 0 65px;
+    padding-top: 90px;
+}
+
+.footer .container .content-list .content:first-child {
+    float: left;
+    width: 40%;
+}
+
+.footer .container .content-list .content:nth-child(2), .footer .container .content-list .content:nth-child(3), .footer .container .content-list .content:last-child {
+    float: left;
+    width: 20%;
+}
+
+.footer .container .content-list .content h3 {
+    margin-bottom: 25px;
+}
+
+.footer .container .content-list .content p {
+    line-height: 30px;
+}
+
+.footer .container .content-list .content:first-child p {
+    width: 90%;
+}
+
+.footer .container .footer-line {
+    clear: left;
+}
+
+.footer .container .footer-line p {
+    text-align: center;
+    padding: 40px 0;
+}
+
