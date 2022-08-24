@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+.clear {
+    clear: both;
+}
+
 /*---- HEADER ----*/
 .header {
     background-color: #F8E1DB;
@@ -121,10 +125,6 @@
     text-transform: capitalize;
 }
 
-.products .container .button {
-    clear: left;
-}
-
 .products .container .button a {
     display: block;
     text-align: center;
@@ -196,10 +196,6 @@
     color: #e46347;
 }
 
-.about .container .clear {
-    clear: left;
-}
-
 /*---- FOOTER ----*/
 .footer {
     background-color: #FAF4F2;
@@ -242,10 +238,6 @@
 
 .footer .container .content-list .content:first-child p {
     width: 90%;
-}
-
-.footer .container .footer-line {
-    clear: left;
 }
 
 .footer .container .footer-line p {
