@@ -1,0 +1,381 @@
+/* ----GLOBAL---- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.button {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 25%;
+    background-color: #fdc006;
+}
+
+.button a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    color: #001e3d;
+    font-weight: 500;
+}
+
+/* ----HEADER---- */
+.header {
+    margin-top: 15px;
+}
+
+.header .container .header__logo {
+    font-size: 36px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header .container .header__logo i {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #001e3d;
+    border-radius: 50%;
+    color: #fdc006;
+    font-size: 14px;
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+.header .container .header__logo span {
+    color: #001e3d;
+    font-weight: 700;
+}
+
+.header .container .header__content p {
+    float: left;
+    margin: 15px 20px;
+}
+
+/* ----CAROUSEL---- */
+.carousel {
+    height: 800px;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ----WELCOME---- */
+.welcome {
+    margin-top: 10px;
+}
+
+.welcome .container {
+    padding: 40px 0;
+}
+
+.welcome .container .welcome__campus, .welcome .container .welcome__image {
+    float: left;
+    width: 50%;
+}
+
+.welcome .container .welcome__campus h2 {
+    text-transform: capitalize;
+    color: #001e3d;
+}
+
+.welcome .container .welcome__campus p {
+    padding: 20px 0;
+    width: 90%;
+    color: #6f6f6f;
+}
+
+.welcome .container .welcome__campus .button {
+    margin-top: 10px;
+}
+
+.welcome .container .welcome__image img {
+    width: 100%;
+}
+
+/* ----STATS---- */
+.stats {
+    background-color: #f5f4f5;
+    margin-top: 5px;
+}
+
+.stats .container .stats__content .stats__item {
+    float: left;
+    width: 25%;
+    margin: 50px 0;
+}
+
+.stats .container .stats__content .stats__item p {
+    float: left;
+}
+
+.stats .container .stats__content .stats__item p:first-child {
+    width: 15%;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.stats .container .stats__content .stats__item p:last-child {
+    width: 75%;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 5px;
+}
+
+/* ----DOMAIN---- */
+.domain {
+    padding: 50px 0;
+}
+
+.domain .container .domain__content {
+    margin: 0 auto;
+}
+
+.domain .container .domain__content .domain__item {
+    float: left;
+    width: 25%;
+}
+
+.domain .container .domain__content .domain__item .domain__background {
+    background: #001e3d;
+    color: #ffffff;
+    width: 90%;
+    margin: 10px 0;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.domain .container .domain__content .domain__item .domain__background i {
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.domain .container .domain__content .domain__item .domain__background p {
+    font-size: 12px;
+}
+
+/* ----INFO---- */
+.info {
+    background: #f5f4f5;
+}
+
+.info .container .info__content {
+    padding: 60px 0;
+}
+
+.info .container .info__content h2 {
+    margin-bottom: 30px;
+    color: #001e3d;
+}
+
+.info .container .info__content .button {
+    float: right;
+    margin-top: 20px;
+}
+
+.info .container .info__content .info__posts .posts__list {
+    background: #ffffff;
+}
+
+.info .container .info__content .info__posts, .info .container .info__content .info__events {
+    float: left;
+    width: 50%;
+}
+
+.info .container .info__content .info__posts {
+    padding-right: 20px;
+}
+
+.info .container .info__content .info__events {
+    padding-left: 20px;
+}
+
+.info .container .info__content .info__posts .posts__list .posts__item {
+    padding: 20px 15px;
+}
+
+.info .container .info__content .info__posts .posts__list .posts__item:nth-child(2) {
+    padding: 0 15px;
+}
+
+.info .container .info__content .info__posts .posts__list .posts__item hr {
+    background-color: #ecebeb;
+    color: #ecebeb;
+    border-width: 0;
+    height: 1px;
+    margin-top: 15px;
+}
+
+.info .container .info__content .info__posts .posts__list .posts__item img {
+    float: left;
+    width: 20%;
+    border-radius: 5px;
+}
+
+.info .container .info__content .info__posts .posts__list .posts__item .posts__content {
+    float: left;
+    width: 80%;
+    padding-left: 15px;
+}
+
+.info .container .info__content .info__posts .posts__list .posts__item .posts__content p {
+    font-size: 12px;
+}
+
+.info .container .info__content .info__posts .posts__list .posts__item .posts__content h4 {
+    margin-bottom: 8px;
+    color: #001e3d;
+}
+
+.info .container .info__content .info__posts .posts__list .posts__item .posts__content p:nth-child(2) {
+    color: #888888;
+    margin-bottom: 8px;
+}
+
+.info .container .info__content .info__posts .posts__list .posts__item .posts__content p:last-child {
+    color: #4e4e4e;
+    font-size: 13px;
+}
+
+.info .container .info__content .info__events .events__list .events__item {
+    background-color: #ffffff;
+    padding: 20px 15px;
+}
+
+.info .container .info__content .info__events .events__list .events__item:first-child {
+    margin-bottom: 20px;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__card, .info .container .info__content .info__events .events__list .events__item .events__info {
+    float: left;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__card {
+    width: 20%;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__info {
+    width: 80%;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__card {
+    text-align: center;
+    width: 15%;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__card .card__top {
+    background-color: #fdc006;
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__card .card__top p:first-child {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__card .card__top p:last-child {
+    font-size: 12px;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__card .card__bottom {
+    background-color: #001e3d;
+    padding: 10px 20px;
+    border-radius: 0 0 5px 5px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__info {
+    margin-left: 15px;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__info h4 {
+    margin-bottom: 10px;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__info p {
+    font-size: 13px;
+    color: #4e4e4e;
+    margin-bottom: 10px;
+    line-height: 17px;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__bottom p {
+    float: left;
+    color: #001e3d;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__bottom p:first-child {
+    margin-right: 10px;
+    padding-right: 20px;
+    border-right: 2px solid #ecebeb;
+}
+
+.info .container .info__content .info__events .events__list .events__item .events__bottom p:nth-child(2) {
+    margin-left: 10px;
+}
+
+/* ----FOOTER---- */
+.footer {
+    background-color: #001e3d;
+    color: white;
+}
+
+.footer .container .footer__content {
+    padding: 50px 0;
+}
+
+.footer .container .footer__content .footer__item {
+    float: left;
+    width: calc(100%/3);
+    padding-right: 20px;
+}
+
+.footer .container .footer__content p {
+    font-size: 12px;
+}
+
+.footer .container .footer__content .footer__item h4 {
+    margin-bottom: 20px;
+}
+
+.footer .container .footer__content .footer__item p {
+    line-height: 25px; 
+}
+
+.footer .container .footer__content .footer__item p i {
+    color: #fdc006;
+    margin-right: 10px;
+}
+
+.footer .container .footer__content hr {
+    background-color: #3d3c3d;
+    color: #3d3c3d;
+    border-width: 0;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.footer .container .footer__content p span {
+    font-weight: 300;
+}
