@@ -77,7 +77,7 @@
           </div>
           <div class="wrap-input100 validate-input" data-validate="Name is required">
             <h2>Nhập thời gian chờ</h2>
-            <input id="time" class="input100" type="text" name="name" placeholder="Thời gian chờ  ..." />
+            <input id="waitingTime" class="input100" type="text" name="name" placeholder="Thời gian chờ  ..." />
             <span class="focus-input100"></span>
           </div>
     
@@ -87,7 +87,7 @@
           </div>
           <div class="wrap-contact100-form-btn">
             <div class="contact100-form-bgbtn"></div>
-            <button type="button" class="contact100-form-btn" data-toggle="modal" data-target="#exampleModal">
+            <button id="btnInvoice" type="button" class="contact100-form-btn" data-toggle="modal" data-target="#exampleModal">
               IN HÓA ĐƠN
             </button>
           </div>
@@ -98,8 +98,36 @@
           <h2>
             Thành tiền:
             <span id="xuatTien" class="xuatTien"> 12345</span>
-            vnd
+            VNĐ
           </h2>
+        </div>
+      </div>
+
+      <!-- MODAL -->
+      <div class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Hoá Đơn</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Chi tiết</th>
+                    <th>Sử dụng</th>
+                    <th>Sử dụng</th>
+                    <th>Thành tiền</th>
+                  </tr>
+                </thead>
+                <tbody id="tbnBody"></tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -117,5 +145,12 @@
 
     <!-- Index.js -->
     <script src="./js/index.js"></script>
+
+    <!-- Modal -->
+    <script>
+      $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+      })
+    </script>
   </body>
 </html>
