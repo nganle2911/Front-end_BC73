@@ -1,14 +1,9 @@
-/**
- * TODO: Yêu cầu 1: 
- * * Nếu chưa nhập thông tin, click "tính tiền", alert được hiển thị 
- */
+// Khai báo các mảng giá và giá chờ cho các loại xe 
+const ARRAY_GIA_UBER_X = [8000, 12000, 10000];
+const GIA_CHO_UBER_X = 2000;
 
-var distance = document.getElementById('distance');
-var time = document.getElementById('time'); 
-var btnPayment = document.getElementById('btnPayment');
+const ARRAY_GIA_UBER_SUV = [9000, 14000, 12000];
+const GIA_CHO_UBER_SUV = 3000;
 
-btnPayment.onclick = function() {
-    if (distance.value === "" || time.value === "") {
-        alert('Vui lòng nhập thông tin'); 
-    }
-}
+const ARRAY_GIA_UBER_BLACK = [10000, 16000, 14000];
+const GIA_CHO_UBER_BLACK = 4000;
